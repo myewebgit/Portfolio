@@ -11,8 +11,9 @@ const Banner =()=>{
         <h1 className="font-bold text-2xl">Md. Nurul Islam</h1>
         <h1 className="font-bold text-xl">frontend Web  Developer</h1>
         
+        {/* <a href="Resume.pdf" download="resume">Download</a> */}
       </div>
-      <div><button class="btn btn-active mx-24 btn-secondary">Download Resume</button></div>
+      <div><button class="btn btn-active mx-24 btn-secondary"><a href="Resume.pdf" download="resume">Download</a></button></div>
         </div>
 
 
