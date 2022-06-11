@@ -13,7 +13,7 @@ const Banner =()=>{
         
         {/* <a href="Resume.pdf" download="resume">Download</a> */}
       </div>
-      <div><button class="btn btn-active mx-24 btn-secondary"><a href="Resume.pdf" download="resume">Download</a></button></div>
+      <div><button class="btn btn-active mx-24 btn-primary"><a href="Resume.pdf" download="resume">Download</a></button></div>
         </div>
 
 

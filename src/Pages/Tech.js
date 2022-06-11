@@ -3,10 +3,10 @@ import React from "react";
 const Tech = () => {
     return (
         <div>
-            <h1 className="text-center text-3xl font-bold m-10">Technology Uses in These Projects!!! </h1>
+            <h1 className="text-center text-3xl font-bold m-10 hover:text-blue-900 hover:text-5xl">Technology Uses in These Projects!!! </h1>
             <div class="stats stats-vertical lg:stats-horizontal grid grid-cols-1 lg:grid-cols-3  mx-5 shadow">
 
-                <div className="text-center bg-black p-5" >
+                <div className="text-center bg-black p-5 hover:bg-white" >
                     <h1 className="text-2xl font-bold text-blue-600">Front End</h1>
                     <div class="divider"></div>
                     <div className="text-xl font-bold text-orange-500">
@@ -16,8 +16,8 @@ const Tech = () => {
                         <h1>Javascript</h1>
                     </div>
                 </div>
-                <div className="text-center bg-black p-5" >
-                    <h1 className="text-2xl font-bold text-blue-600">UI / UX</h1>
+                <div className="text-center bg-black p-5 hover:bg-white" >
+                    <h1 className="text-2xl font-bold text-blue-600  ">UI / UX</h1>
                     <div class="divider "></div>
                     <div className="text-xl font-bold text-orange-500">
                         <h1>Tailwind</h1>
@@ -27,7 +27,7 @@ const Tech = () => {
 
                     </div>
                 </div>
-                <div className="text-center bg-black  p-5" >
+                <div className="text-center bg-black  p-5  hover:bg-white" >
                     <h1 className="text-2xl font-bold text-blue-600">Back End and Database</h1>
                     <div class="divider"></div>
                     <div className="text-xl font-bold text-orange-500">
